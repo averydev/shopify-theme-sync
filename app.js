@@ -31,7 +31,8 @@ var _ = require("lodash"),
 	 * Make sure all filenames in this list are lowercase since `filter` only checks against lowercase.
 	 */
 	blacklist = [
-		"thumbs.db"
+		"thumbs.db",
+		".git"
 	],
 
 	/**
